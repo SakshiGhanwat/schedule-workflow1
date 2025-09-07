@@ -1,0 +1,19 @@
+name: schedule job
+
+on:
+  schedule:
+    - cron: "0 * * * *"   # दर तासाला एकदा चालेल
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: print message
+        run: echo "schedule workflow"
+
+      
+ 
+
+
+ 
