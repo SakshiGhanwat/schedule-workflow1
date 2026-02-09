@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - name: print message
-        run: echo "schedule workflow"
+        run: echo "schedule workflow execute"
 
       
  
